@@ -31,3 +31,8 @@ Este paquete contiene el **frontend completo** (`public/index.html`) y el **back
 2. Conéctala en **Render**, **Railway** o un **VPS (DigitalOcean / AWS Lightsail)** con HTTPS automático (necesario para abrir la cámara del celular en el Módulo 1 OCR y firmar con el dedo en el Módulo 5).
 3. Configura las variables de `.env` en el panel de tu proveedor y agrega un volumen persistente para `./data/muebles_artesanias.db` (o cambia a PostgreSQL si prefieres base administrada).
 4. En el celular de **David Altamirano**, abre la URL HTTPS y selecciona **"Agregar a pantalla de inicio"** para usarla como app instalada.
+
+## Paso 5: Notificaciones push
+1. Las **notificaciones push** requieren que la app se abra por **HTTPS** (en pruebas locales funciona con `http://localhost`).
+2. **En Android (Chrome):** inicia sesión, toca la campana **🔔** en la barra superior y presiona **"Activar notificaciones push"**.
+3. **En iPhone (iOS 16.4 o superior):** primero toca el botón **Compartir** de Safari → **"Agregar a pantalla de inicio"**, abre la app desde ese ícono instalado y después entra a **🔔** → **"Activar notificaciones push"**.

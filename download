@@ -1,0 +1,15 @@
+# Dependencias y build
+node_modules/
+
+# Secretos y credenciales (NUNCA subir a GitHub)
+.env
+secrets/
+*.json.key
+*service-account*.json
+muebles-artesanias-*.json
+
+# Datos locales y subidas
+data/
+uploads/
+*.db
+*.db-journal
